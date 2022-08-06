@@ -1,6 +1,6 @@
 {
   "branches": "main",
-  "repositoryUrl": "https://github.com/herbsjs/herbsshelf",
+  "repositoryUrl": "https://github.com/maikmb/herbs2mermaid",
   "debug": "true",
   "plugins": [
     "@semantic-release/commit-analyzer",
@@ -16,7 +16,11 @@
     [
       "@semantic-release/git",
       {
-        "assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
+        "assets": [
+          "package.json",
+          "package-lock.json",
+          "CHANGELOG.md"
+        ],
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ]
