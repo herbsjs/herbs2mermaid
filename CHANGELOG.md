@@ -1,3 +1,10 @@
+# 1.0.0 (2022-08-06)
+
+
+### Features
+
+* **release:** first release ([ce4dda7](https://github.com/maikmb/herbs2mermaid/commit/ce4dda7ad8bcc8295794d316c8a505f993652703))
+
 # [4.0.0](https://github.com/maikmb/herbs2mermaid/compare/v3.2.0...v4.0.0) (2022-07-13)
 
 
