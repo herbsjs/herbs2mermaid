@@ -1,4 +1,4 @@
-const { isIfElseStep, isFirstStep, isMultipleSteps, firstStep, lastStep } = require("../helpers/stepsHelper")
+const { isIfElseStep, isFirstStep, isMultipleSteps, firstStep, lastStep } = require("./helpers/stepsHelper")
 const crypto = require('crypto')
 
 class StepsRelationship {

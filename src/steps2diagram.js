@@ -1,5 +1,5 @@
 const crypto = require('crypto')
-const { isIfElseStep, isMultipleSteps } = require('../helpers/stepsHelper')
+const { isIfElseStep, isMultipleSteps } = require('./helpers/stepsHelper')
 
 class Steps2Diagram {
     constructor(steps) {
