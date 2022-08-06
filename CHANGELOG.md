@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/maikmb/herbs2mermaid/compare/v1.0.0...v1.1.0) (2022-08-06)
+
+
+### Features
+
+* **diagram:** fix helper import path ([9490cc9](https://github.com/maikmb/herbs2mermaid/commit/9490cc966717a66f0c040d3d986833ff68a556da))
+
 # 1.0.0 (2022-08-06)
 
 
