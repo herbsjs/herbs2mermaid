@@ -20,6 +20,7 @@ To use the herbs2mermaid you must given a list of usecases or entities to genera
 The quickest way to use the herbs2mermaid is to install this packages in your project and use the functions bellow:
 
 `usecase2diagram`: - Generate flow chart to a list of usecases
+
 `entity2diagram`: - Generate class diagram to a list of entities
 
 In your app or server project, import the herbs2mermaid functions
