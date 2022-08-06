@@ -58,15 +58,12 @@ You can see the full functionality into the [TODO-LIST ON HERBS repository](http
 
 ## TODO
 
-- [X] Self-documentation
-- [ ] Add templates and injection of css file
-- [X] Entities of gotu support
-- [ ] Playground functionality
-- [ ] GraphQL documentation sample
-
+- [ ] Complex scenarios with recursive IfElse Step
+- [ ] Complex scenarios with recursive Multi Level Step
+- [ ] Include options to render diagram to Vertical or Horizontal posistion
 
 ### Contribute
-Come with us to make an awesome *herbsshelf*.
+Come with us to make an awesome *herbs2mermaid*.
 
 Now, if you do not have the technical knowledge and also have intended to help us, do not feel shy, [click here](https://github.com/maikmb/herbs2mermaid/issues) to open an issue and collaborate their ideas, the contribution may be a criticism or a compliment (why not?)
 
