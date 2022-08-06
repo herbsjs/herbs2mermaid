@@ -38,4 +38,5 @@ describe('Convert usecase to diagram', () => {
 		assert.match(result[0].definition, /(Step 2)/)
 		assert.match(result[0].definition, /(Step 3)/)
 	})
+	
 })
