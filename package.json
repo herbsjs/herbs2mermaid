@@ -1,11 +1,12 @@
 {
-  "name": "@maikmb/herbs2mermaid",
-  "version": "1.1.0",
+  "name": "@herbsjs/herbs2mermaid",
+  "version": "1.0.0",
   "description": "A lib to help you generate mermaid diagrams from your herbs project",
   "main": "./src/index.js",
   "scripts": {
     "test": "mocha --timeout 999999 --colors --recursive ./test",
-    "coverage": "nyc --reporter=html mocha ./test",
+    "coverage-report": "nyc --reporter=html --reporter=text mocha --recursive ./test/unit --timeout 10000",
+    "coverage": "nyc --reporter=text mocha --recursive ./test --timeout 10000",
     "lint": "npx eslint \"**/*.{js,jsx}\" --quiet",
     "lint:fix": "npx eslint \"**/*.{js,jsx}\" --fix",
     "semantic-release": "semantic-release",
@@ -29,25 +30,28 @@
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^8.0.4",
+    "@semantic-release/github": "^8.0.5",
     "@semantic-release/npm": "^9.0.1",
     "@semantic-release/release-notes-generator": "^10.0.3",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.14.0",
-    "@babel/eslint-parser": "^7.17.0",
+    "eslint": "^8.22.0",
+    "@babel/eslint-parser": "^7.18.9",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "mocha": "^9.2.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "mocha": "^10.0.0",
     "nyc": "^15.1.0",
-    "prettier": "^2.6.2",
-    "semantic-release": "^19.0.2"
+    "prettier": "^2.7.1",
+    "semantic-release": "^19.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/herbsjs/herbs2mermaid/issues/"
   },
   "author": "Maik Braga",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maikmb/herbs2mermaid.git"
+    "url": "https://github.com/herbsjs/herbs2mermaid.git"
   },
   "config": {
     "commitizen": {
@@ -58,7 +62,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@herbsjs/herbs": "^1.6.1",
+    "@herbsjs/herbs": "^1.6.2",
     "require-text": "0.0.1"
   }
 }
