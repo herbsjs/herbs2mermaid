@@ -1,6 +1,6 @@
  <p align='center'><img src='https://avatars3.githubusercontent.com/u/60399865' height='220'></p>
 
-![CI build](https://github.com/maikmb/herbs2mermaid/workflows/CI%20build/badge.svg) [![codecov](https://codecov.io/gh/maikmb/herbs2mermaid/branch/main/graph/badge.svg)](https://codecov.io/gh/maikmb/herbs2mermaid)
+![CI build](https://github.com/herbsjs/herbs2mermaid/workflows/CI%20build/badge.svg) [![codecov](https://codecov.io/gh/herbsjs/herbs2mermaid/branch/main/graph/badge.svg)](https://codecov.io/gh/herbsjs/herbs2mermaid)
 
 # herbs2mermaid
 
@@ -8,7 +8,7 @@ With Herbs2mermaid you can generate Mermaid Class Diagram or Flow Chat easely.
 
 ### Installing
 ```
-    $ npm install @maikmb/herbs2mermaid
+    $ npm install @herbsjs/herbs2mermaid
 ```
 
 ### Functioning 
@@ -27,7 +27,7 @@ In your app or server project, import the herbs2mermaid functions
 
 ```javascript
 
-const { usecase2diagram, entity2diagram } = require('@maikmb/herbs2mermaid')
+const { usecase2diagram, entity2diagram } = require('@herbsjs/herbs2mermaid')
 
 
 ```
@@ -65,11 +65,11 @@ You can see the full functionality into the [TODO-LIST ON HERBS repository](http
 ### Contribute
 Come with us to make an awesome *herbs2mermaid*.
 
-Now, if you do not have the technical knowledge and also have intended to help us, do not feel shy, [click here](https://github.com/maikmb/herbs2mermaid/issues) to open an issue and collaborate their ideas, the contribution may be a criticism or a compliment (why not?)
+Now, if you do not have the technical knowledge and also have intended to help us, do not feel shy, [click here](https://github.com/herbsjs/herbs2mermaid/issues) to open an issue and collaborate their ideas, the contribution may be a criticism or a compliment (why not?)
 
-If you would like to help contribute to this repository, please see [CONTRIBUTING](https://github.com/maikmb/herbs2mermaid/blob/main/.github/CONTRIBUTING.md)
+If you would like to help contribute to this repository, please see [CONTRIBUTING](https://github.com/herbsjs/herbs2mermaid/blob/main/.github/CONTRIBUTING.md)
 
 ### License
 
 **herbsshelf** is released under the
-[MIT license](https://github.com/maikmb/herbs2mermaid/blob/main/LICENSE)
+[MIT license](https://github.com/herbsjs/herbs2mermaid/blob/main/LICENSE)

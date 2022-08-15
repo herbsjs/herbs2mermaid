@@ -1,6 +1,6 @@
 {
   "branches": "main",
-  "repositoryUrl": "https://github.com/maikmb/herbs2mermaid",
+  "repositoryUrl": "https://github.com/herbsjs/herbs2mermaid",
   "debug": "true",
   "plugins": [
     "@semantic-release/commit-analyzer",
