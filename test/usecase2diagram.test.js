@@ -1,5 +1,5 @@
 const assert = require('assert')
-const { usecase, step, Ok, Err } = require('@herbsjs/herbs')
+const { usecase, step, Ok } = require('@herbsjs/herbs')
 const usecase2diagram = require('../src/usecase2diagram')
 
 describe('Convert usecase to diagram', () => {

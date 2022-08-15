@@ -1,5 +1,5 @@
 const { checker } = require("@herbsjs/herbs")
-const { Steps2Diagram } = require("./steps2Diagram")
+const { Steps2Diagram } = require("./steps2diagram")
 const { StepsRelationship } = require("./stepsRelationship")
 
 const injection = {
