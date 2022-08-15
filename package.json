@@ -1,6 +1,6 @@
 {
   "name": "@herbsjs/herbs2mermaid",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "A lib to help you generate mermaid diagrams from your herbs project",
   "main": "./src/index.js",
   "scripts": {
