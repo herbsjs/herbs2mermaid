@@ -1,6 +1,7 @@
  <p align='center'><img src='https://avatars3.githubusercontent.com/u/60399865' height='220'></p>
 
-![CI build](https://github.com/herbsjs/herbs2mermaid/workflows/CI%20build/badge.svg) [![codecov](https://codecov.io/gh/herbsjs/herbs2mermaid/branch/main/graph/badge.svg)](https://codecov.io/gh/herbsjs/herbs2mermaid)
+[![CD Build](https://github.com/herbsjs/herbs2mermaid/actions/workflows/cd.yml/badge.svg?branch=main)](https://github.com/herbsjs/herbs2mermaid/actions/workflows/cd.yml)
+[![codecov](https://codecov.io/gh/herbsjs/herbs2mermaid/branch/main/graph/badge.svg)](https://codecov.io/gh/herbsjs/herbs2mermaid)
 
 # herbs2mermaid
 
