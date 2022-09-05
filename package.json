@@ -4,9 +4,9 @@
   "description": "A lib to help you generate mermaid diagrams from your herbs project",
   "main": "./src/index.js",
   "scripts": {
-    "test": "mocha --timeout 999999 --colors --recursive ./test",
-    "coverage-report": "nyc --reporter=html --reporter=text mocha --recursive ./test/unit --timeout 10000",
-    "coverage": "nyc --reporter=text mocha --recursive ./test --timeout 10000",
+    "test": "mocha --timeout 999999 --colors --recursive ./src",
+    "coverage-report": "nyc --reporter=html --reporter=text mocha --recursive ./src --timeout 10000",
+    "coverage": "nyc --reporter=text mocha --recursive ./src --timeout 10000",
     "lint": "npx eslint \"**/*.{js,jsx}\" --quiet",
     "lint:fix": "npx eslint \"**/*.{js,jsx}\" --fix",
     "semantic-release": "semantic-release",
