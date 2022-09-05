@@ -147,19 +147,8 @@ describe('Convert usecase to diagram', () => {
 			usecase: simpleUsecase
 		}
 
-		// when
-		const result = usecase2diagram([usecase])
-
-		// then
-		assert.equal(result.length, 1)
-		assert.equal(result[0].id, 'AUsecase')
-		assert.equal(result[0].description, "A Usecase")
-		assert.match(result[0].definition, /graph TD/)
-		assert.match(result[0].definition, /(Step 1)/)
-		assert.match(result[0].definition, /(Step 2)/)
-		assert.match(result[0].definition, /(Step 3)/)
-		assert.match(result[0].definition, /subgraph/)
-		assert.match(result[0].definition, /end/)
+		// when && then
+		assert.throws(() => usecase2diagram([usecase]))
 	})
 
 })
