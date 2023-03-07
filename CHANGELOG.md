@@ -1,3 +1,20 @@
+# [2.0.0](https://github.com/herbsjs/herbs2mermaid/compare/v1.2.0...v2.0.0) (2023-03-07)
+
+
+### Bug Fixes
+
+* **package.json:** up herbs version ([549913d](https://github.com/herbsjs/herbs2mermaid/commit/549913dd516f420b0795714a693357e256be5f79))
+
+
+### Continuous Integration
+
+* fix cd ([136c781](https://github.com/herbsjs/herbs2mermaid/commit/136c7813f40938cc00e0f4f24fbe2e4c20c35c7d))
+
+
+### BREAKING CHANGES
+
+* upgrade buchu to 2.0
+
 # [1.2.0](https://github.com/herbsjs/herbs2mermaid/compare/v1.1.1...v1.2.0) (2022-09-05)
 
 
