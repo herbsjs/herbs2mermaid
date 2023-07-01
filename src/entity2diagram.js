@@ -85,7 +85,7 @@ function fieldTypeDescription(entities, type) {
         return findEntityIdByName(entities, type.name)
 
     if (Array.isArray(type)) {
-        return `${type.name}[]`
+        return `${type[0].name}[]`
     }
 
     return type.name
