@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/herbsjs/herbs2mermaid/compare/v2.0.0...v2.0.1) (2023-07-03)
+
+
+### Bug Fixes
+
+* **entity2diagram:** fix display of Array Fields in HerbsShelf ([1af4914](https://github.com/herbsjs/herbs2mermaid/commit/1af491488ee2cc3f595e9dcef6f8feb707a11b4a))
+
 # [2.0.0](https://github.com/herbsjs/herbs2mermaid/compare/v1.2.0...v2.0.0) (2023-03-07)
 
 
