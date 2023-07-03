@@ -9,7 +9,7 @@ describe('Convert entity to diagram', () => {
 			id: id(Number),
 			stringTest: field(String),
 			booleanTest: field(Boolean),
-			ArrayTest: field([String]),
+			arrayTest: field([String]),
 			isExample: () => true
 		})
 
@@ -47,6 +47,7 @@ describe('Convert entity to diagram', () => {
 		assert.match(result, /Number id/)
 		assert.match(result, /String stringTest/)
 		assert.match(result, /Boolean booleanTest/)
+		assert.match(result, /String\[\] arrayTest/)
 		assert.match(result, /isExample()/)
 	})
 
