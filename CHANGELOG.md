@@ -1,3 +1,11 @@
+## [2.0.1-beta.1](https://github.com/herbsjs/herbs2mermaid/compare/v2.0.0...v2.0.1-beta.1) (2023-07-28)
+
+
+### Bug Fixes
+
+* **node & semantic release:** improve version to release and bump node version ([61266ce](https://github.com/herbsjs/herbs2mermaid/commit/61266ce54addeec27567a63d5cafa52a1b638edd))
+* **usecase2diagram:** fix nested steps and if else steps diagrams ([4a83831](https://github.com/herbsjs/herbs2mermaid/commit/4a838318bc7279db3273f1920426ec5ba31edfca))
+
 # [2.0.0](https://github.com/herbsjs/herbs2mermaid/compare/v1.2.0...v2.0.0) (2023-03-07)
 
 
